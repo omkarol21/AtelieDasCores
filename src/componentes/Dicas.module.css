@@ -1,0 +1,25 @@
+.tituloDicas{
+    font-family: 'Fredoka';
+    font-weight: bold;
+    color: var(--Cor-Amarelo);
+    font-size: 30px;
+    text-align: center;
+    margin: 20px 0px 10px 0px;
+}
+
+.pDicas{
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--Cor-Amarelo);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.Tamanho{
+    width: 450px;
+    max-width: 100%;
+    border-radius: 15px;
+    display: block;
+    margin: 0px auto 30px;
+}

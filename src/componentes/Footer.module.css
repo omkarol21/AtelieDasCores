@@ -1,0 +1,35 @@
+.fundo{
+    background-color: var(--Cor-Aqua);
+    padding: 20px;
+}
+
+.logo{
+    width: 140px;
+}
+
+.tituloFooter{
+    font-family: 'Fredoka';
+    font-size: 19px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pFooter{
+    font-family: 'Poppins';
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
+
+.iconsImg{
+    width: 25px;
+    margin: 7px;
+    text-align: center;
+}
+
+.centralizar{
+    text-align: center;
+}

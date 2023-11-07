@@ -1,0 +1,25 @@
+.Nav{
+    background-color: var(--Cor-Aqua);
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+}
+
+.img{
+    width: 140px;
+}
+
+.p{
+    font-family: 'Fredoka';
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    margin: 8px;
+}
+
+.p:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.05);
+    transition: all 0.3s;
+}

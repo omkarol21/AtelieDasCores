@@ -1,3 +1,11 @@
+:root{
+  --Cor-Rose: #EE9E97;
+  --Cor-Aqua: #8DB4AB;
+  --Cor-Verde: #026D81;
+  --Cor-Nude: #F5D0C0;
+  --Cor-Amarelo: #F8B042;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +18,12 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+img {
+  max-width: 100%;
+}
+
+iframe {
+  max-width: 100%;
 }

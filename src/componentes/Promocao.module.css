@@ -1,0 +1,18 @@
+.promo{
+    padding: 28px;
+    background-color: var(--Cor-Verde);
+}
+
+.titulo{
+    font-family: 'Fredoka';
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.linha{
+    background-color: white;
+    height: 2px;
+    width: 95%;
+    margin: 20px 0px 40px 0px;
+}

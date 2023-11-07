@@ -1,24 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import Nav from "./componentes/Nav.jsx";
+import Banner from "./componentes/Banner.jsx";
+import Promocao from "./componentes/Promocao.jsx";
+import Categoria from "./componentes/Categoria.jsx";
+import Galeria from "./componentes/Galeria.jsx";
+import Footer from "./componentes/Footer";
+import Dicas from "./componentes/Dicas";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    //   Tag fantasma, para que os dois conteiners tanto da NAV quanto da DIV não se choquem,
+    // uma vez que o script não permite que tenham duas Divs pai
+
+    <>
+        <Nav></Nav>
+        <div className="container-fluid">
+            <Banner></Banner>
+            <Promocao></Promocao>
+            <Categoria></Categoria>
+            <Galeria></Galeria>
+            <Dicas></Dicas>
+            <Footer></Footer>
+        </div>
+    </>
   );
 }
 
